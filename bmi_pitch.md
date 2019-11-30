@@ -1,0 +1,59 @@
+bmi_pitch
+========================================================
+author: Thomas Moerkerke
+date: 22 November 2019
+autosize: true
+
+
+SUMMARY
+========================================================
+
+
+- This presentation is about the BMI app
+
+- The app calculates the BMI index
+
+- It uses weight and height as inputs
+
+
+WHAT IT USES
+========================================================
+
+- The app needs input of weight and height
+- The app calculates the BMI index. The index is calculated as per below example
+- Here we take my height and weight : 94kg and 186cm
+
+
+```r
+bmi<-function(height,weight)weight/(height^2)*10000
+height<-186
+weight<-94
+output<-bmi(height,weight)
+output
+```
+
+```
+[1] 27.17077
+```
+
+Interpretation
+========================================================
+
+-BMI indexes between 18.5 and above 25 indicate normal weight
+
+-A BMI below 18.5 shows that the person is on the light side
+
+-BMI's above 25 could indicate some overweight
+
+
+Some final comments
+========================================================
+
+- I would have liked to embed the app in the presentation
+
+- RPres does not support this
+
+- I am not sure why we had to use slidify or R Studio presentations
+
+- It would have been cooler to have the embedded app
+

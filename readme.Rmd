@@ -1,0 +1,22 @@
+# BMI app for data products week 4 assignment
+##What
+
+I created an app that applies the BMI formula to inputs of weights and Heights. BMI stands for Body Mass Index and gives an indication on whether someone's weight is in proportion with his/her length.
+
+##How it works
+
+The app does not use a database or anything. it has 2 sliders for input of weight and height. 
+In the background, the BMI formula weight(kg)/height(cm)^2*10000 is applied. Out comes a number. 
+
+##Interpretation
+
+If the BMI number is below 18.5, the individual might weight too little compared to the height. If the BMI is over 25 we suspect overweight. If it is above 30, we suspect obesity.   
+The BMI is only an indicator because very muscular individuals often exceed 25 while they have a perfectly normal weight. 
+
+##Files
+
+We need only 2 files : a UI.r file and a Server.r file. 
+
+The app is deployed on 
+
+https://varkenvanmadonna.shinyapps.io/data_products_assignment_week4_bmi/
